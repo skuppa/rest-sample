@@ -29,8 +29,9 @@ dependencies {
     }
     compile("org.springframework.boot:spring-boot-starter-jetty")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("com.h2database:h2")
     compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("com.h2database:h2")
+    compile("mysql:mysql-connector-java:5.1.29")
     testCompile("junit:junit")
 }
 
